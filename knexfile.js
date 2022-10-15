@@ -10,12 +10,12 @@ module.exports = {
       database: 'knex_migration_practice_db',
     },
     migrations: {
-       directory: './knex/migrations',
-       tableName: 'knex_migrations'
-      }
+      directory: './db/migrations',
+      tableName: 'knex_migrations'
     }
   }
-
+}
+console.log('db connected')
 
 
 

@@ -1,7 +1,7 @@
 const express = require('express');
-const  PORT = 3001;
+const PORT = 3001;
 const app = express();
-const knex = require('./knex/knex');
+const knex = require('./db/knex');
 const cors = require('cors');
 require("dotenv").config();
 
